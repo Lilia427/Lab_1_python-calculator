@@ -9,7 +9,7 @@ def get_user_input():
             num1 = float(input("Enter the first number: "))
             operator = input("Enter an operator (+, -, *, /, ^, √, %): ")
             num2 = None
-            if operator not in ('√',):  # √ only needs one number
+            if operator not in ('√',):
                 num2 = float(input("Enter the second number: "))
             return num1, operator, num2
         except ValueError:
